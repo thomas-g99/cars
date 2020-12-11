@@ -1,8 +1,8 @@
 #! /bin/bash
 # cars.sh
 # Thomas gooding
-INPUT=O
-while [ '$INPUT' -ne '3' ]
+INPUT=0
+while [ "$INPUT" -ne 3 ]
 do 
 	echo "Type '1' to enter a new car."
 	echo "Type '2' to display a list of the cars."
